@@ -3,7 +3,7 @@ Container base ARM mail server from https://docker-mailserver.github.io
 
 1. Update the enviornment mailserver.env file with your own values
 
-2. If running this at home setup port forwarding:
+2. If running this behind NAT port forward:
       - "25:25"    # SMTP  (explicit TLS => STARTTLS)
       - "143:143"  # IMAP4 (explicit TLS => STARTTLS)
       - "465:465"  # ESMTP (implicit TLS)
